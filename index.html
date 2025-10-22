@@ -29,7 +29,7 @@
                   Neural Radiance Fields (NeRF) and 3D Gaussian Splatting (3DGS). 
                   Before this, I won 6 national awards in academic competitions during my undergraduate studies 
                   and was guaranteed a place in graduate school with distinction. 
-                  I am the outstanding graduate of Henan Province in 2022. 
+                  I am the outstanding graduate of Henan Province in 2022 and Liaoning Province in 2025. 
                   I was also an algorithm intern at <a target="_blank" href="https://www.didiglobal.com/">Didichuxing</a>, 
                   focusing on Autonomous driving.
                 </p>
@@ -41,7 +41,7 @@
                 </p>
               </td>
               <td style="padding:2.5%;width:40%;max-width:40%">
-                <a href="images/self_photo.jpg"><img style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%;" alt="profile photo" src="images/self_photo.jpg" class="hoverZoomLink"></a>
+                <a href="images/self-photo.jpg"><img style="width:100%;max-width:100%;object-fit: cover; border-radius: 20%;" alt="profile photo" src="images/self-photo.jpg" class="hoverZoomLink"></a>
               </td>
             </tr>
           </tbody></table>
@@ -58,17 +58,52 @@
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
-          <tr onmouseout="pre24_stop()" onmouseover="pre24_start()">
+          <tr onmouseout="pre0_stop()" onmouseover="pre0_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
-              <video id="pre24_video" style="width:100%;max-width:100%;left:5%;opacity:1" muted loop>
+              <video id="pre0_video" style="width:100%;max-width:100%;left:5%;opacity:1" muted loop>
+                <source src="images\BEV-PolyNet.mp4" type="video/mp4">Your browser does not support the video tag.
+              </video>
+              <script type="text/javascript">
+                function pre0_start() {
+                  document.getElementById("pre0_video").play();
+                }
+                function pre0_stop() {
+                  document.getElementById("pre0_video").pause();
+                }
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <p>
+                <strong>
+                BEV-PolyNet: BEV-Based Polygonal End to End Parking Slot Detection Framework
+                </strong>
+                <br>
+                  Zhenjie Duan, 
+                  <a target="_blank" href="http://faculty.neu.edu.cn/zhuangyaoming/">Yaoming Zhuang*</a>, 
+                  Yifan Chao,
+                  <strong>Pengcheng Zhu</strong>, 
+                  Li Li, Chengdong Wu.
+                <br>
+                [RA-L 2025] &nbsp;/&nbsp; 
+                <a target="_blank" href="https://ieeexplore.ieee.org/document/11129638">Paper</a> 
+              </p>
+              <p>
+                Accurate parking slot detection is vital for autonomous parking and intelligent driving. However, existing methods relying on AVM images suffer from distortion, occlusion, and fragmented corner-point regression. To overcome these issues, we propose BEV-PolyNet, an end-to-end framework that generates BEV features from surround-view images, introduces polygonal modeling to capture complete slot structures, and enhances convergence via query initialization with image features and location priors. Experiments on the PS2.0 and LPD datasets demonstrate BEV-PolyNet's superior accuracy and robustness.
+              </p>
+            </td>
+          </tr> 
+
+          <tr onmouseout="pre1_stop()" onmouseover="pre1_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <video id="pre1_video" style="width:100%;max-width:100%;left:5%;opacity:1" muted loop>
                 <source src="images/MGS-SLAM.mp4" type="video/mp4">Your browser does not support the video tag.
               </video>
               <script type="text/javascript">
-                function pre24_start() {
-                  document.getElementById("pre24_video").play();
+                function pre1_start() {
+                  document.getElementById("pre1_video").play();
                 }
-                function pre24_stop() {
-                  document.getElementById("pre24_video").pause();
+                function pre1_stop() {
+                  document.getElementById("pre1_video").pause();
                 }
               </script>
             </td>
@@ -156,7 +191,7 @@
       <tr>
       <td style="padding:20px;width:100%;vertical-align:middle">
         <p align="right">
-          Last update: 16 Oct 2024
+          Last update: 22 Oct 2025
         </p>
       </td>
     </tr>
