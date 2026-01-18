@@ -58,17 +58,45 @@
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
-          <tr onmouseout="pre0_stop()" onmouseover="pre0_start()">
+          <tr>
             <td style="padding:20px;width:25%;vertical-align:middle">
-              <video id="pre0_video" style="width:100%;max-width:100%;left:5%;opacity:1" muted loop>
+              <img 
+                id="pre2_image"
+                src="images/InstGPMap.png"
+                style="width:100%;max-width:100%;left:5%;opacity:1"
+                alt="InstGPMap preview">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <p>
+                <strong>
+                InstGPMap: Real-Time Instance-Level Global Prior Mapping via Historical Predictions Fusion
+                </strong>
+                <br>
+                  Baoquan Chen, Zhongxing Ma, 
+                  <strong>Pengcheng Zhu</strong>, 
+                  <a target="_blank" href="http://faculty.neu.edu.cn/zhuangyaoming/">Yaoming Zhuang*</a>, 
+                  Weixin Lu, Haoyang Zhao.
+                <br>
+                [RA-L 2025] &nbsp;/&nbsp; 
+                <a target="_blank" href="https://ieeexplore.ieee.org/document/11260936">Paper</a>
+              </p>
+              <p>
+                InstGPMap is an online HD map construction framework that enhances local map inference by maintaining instance-level global prior maps from historical observations. Instead of relying on implicit BEV features, it explicitly associates map elements across frames using consistent instance IDs and updates them through a GlobalMapUpdate module. Extensive experiments on the nuScenes dataset demonstrate that InstGPMap achieves state-of-the-art performance with superior accuracy and storage efficiency.
+              </p>
+            </td>
+          </tr> 
+
+          <tr onmouseout="pre1_stop()" onmouseover="pre1_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <video id="pre1_video" style="width:100%;max-width:100%;left:5%;opacity:1" muted loop>
                 <source src="images/BEV-PolyNet.mp4" type="video/mp4">Your browser does not support the video tag.
               </video>
               <script type="text/javascript">
-                function pre0_start() {
-                  document.getElementById("pre0_video").play();
+                function pre1_start() {
+                  document.getElementById("pre1_video").play();
                 }
-                function pre0_stop() {
-                  document.getElementById("pre0_video").pause();
+                function pre1_stop() {
+                  document.getElementById("pre1_video").pause();
                 }
               </script>
             </td>
@@ -93,17 +121,17 @@
             </td>
           </tr> 
 
-          <tr onmouseout="pre1_stop()" onmouseover="pre1_start()">
+          <tr onmouseout="pre0_stop()" onmouseover="pre0_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
-              <video id="pre1_video" style="width:100%;max-width:100%;left:5%;opacity:1" muted loop>
+              <video id="pre0_video" style="width:100%;max-width:100%;left:5%;opacity:1" muted loop>
                 <source src="images/MGS-SLAM.mp4" type="video/mp4">Your browser does not support the video tag.
               </video>
               <script type="text/javascript">
-                function pre1_start() {
-                  document.getElementById("pre1_video").play();
+                function pre0_start() {
+                  document.getElementById("pre0_video").play();
                 }
-                function pre1_stop() {
-                  document.getElementById("pre1_video").pause();
+                function pre0_stop() {
+                  document.getElementById("pre0_video").pause();
                 }
               </script>
             </td>
